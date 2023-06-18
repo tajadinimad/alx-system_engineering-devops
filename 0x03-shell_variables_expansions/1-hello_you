@@ -1,2 +1,2 @@
 #!/bin/bash
-export id=Imad;echo "hello "$id
+echo "hello "$(id -u -n)
